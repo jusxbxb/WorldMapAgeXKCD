@@ -34,6 +34,8 @@ public class WorldMapAgeXKCD {
 
         System.out.println("GUIDE TO FIGURING OUT THE AGE OF AN UNDATED WORLD MAP");
         System.out.println("(Assuming it's complete, labeled in English, and detailed enough)");
+        System.out.println("");
+        System.out.println("Based on the XKCD comic: https://xkcd.com/1688/");
 
         System.out.println("");
         System.out.println("Enter \"S\" to Start");
@@ -88,6 +90,26 @@ public class WorldMapAgeXKCD {
     public static void end(Scanner in) {
     	System.out.println("");
         System.out.println("The program has ended.");
+        System.out.println("");
+        // System.out.println("Start again?");
+
+        // System.out.println("Y: Yes");
+        // System.out.println("N: No");
+        
+        // while (true) {
+        //     String answer = in.nextLine();
+
+        //     if (answer.equalsIgnoreCase("Y")) {
+        //     	System.out.println("");
+        //         System.out.println("Yes");
+        //         start(in);
+        //         break;
+        //     } else if (answer.equalsIgnoreCase("N")) {
+        //         break;
+        //     } else {
+        //         System.out.println("Invalid input. Please enter Y or N.");
+        //     }
+        // }
     }
 
     public static void doAnyOfThese(Scanner in) {
